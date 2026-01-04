@@ -6,12 +6,12 @@
 api.iunmap('<Ctrl-a>');
 
 // Ctrl+A → Select all text in input/textarea/contenteditable
-api.imapkey('<Ctrl-a>', '#15Select all in current input', function() {
-    var input = document.activeElement;
-    if (input && (input.tagName === 'INPUT' || input.tagName === 'TEXTAREA' || input.isContentEditable)) {
-        input.select();
-    }
-});
+//api.imapkey('<Ctrl-a>', '#15Select all in current input', function() {
+//  var input = document.activeElement;
+//    if (input && (input.tagName === 'INPUT' || input.tagName === 'TEXTAREA' || input.isContentEditable)) {
+//        input.select();
+//    }
+//});
 
 // Alt+0 → Move cursor to beginning of line
 api.imapkey('<Alt-0>', '#15Move cursor to beginning of line', function() {
