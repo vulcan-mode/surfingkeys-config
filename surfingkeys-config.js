@@ -1,7 +1,7 @@
 api.iunmap("<Ctrl-a>");
 
 // yd → Open current tab URL in a new tab (duplicate)
-api.mapkey("yd", "#3Open current tab in a new tab", function () {
+api.mapkey("yz", "#3Open current tab in a new tab", function () {
   window.open(window.location.href, "_blank");
 });
 
