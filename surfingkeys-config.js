@@ -1,9 +1,7 @@
 api.iunmap("<Ctrl-a>");
 
-// yd → Open current tab URL in a new tab (duplicate)
-api.mapkey("yz", "#3Open current tab in a new tab", function () {
-  window.open(window.location.href, "_blank");
-});
+// yz → Open current tab in a new window (built-in `W`)
+api.map("yz", "W");
 
 // Alt-0 → Move cursor to very beginning of entire text input
 api.imapkey(
