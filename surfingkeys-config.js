@@ -4,9 +4,9 @@ api.map('e', 'd');
 
 // Tab navigation
 api.mapkey('<Ctrl-Alt-ArrowLeft>', '#3Go to left tab', function() {
-    api.Normal.feedkeys('E');
+    api.RUNTIME("previousTab");
 });
 api.mapkey('<Ctrl-Alt-ArrowRight>', '#3Go to right tab', function() {
-    api.Normal.feedkeys('R');
+    api.RUNTIME("nextTab");
 });
 
